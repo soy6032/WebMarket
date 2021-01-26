@@ -43,6 +43,8 @@
 		<div class="text-center">
 			<h3><%=tagline %></h3>
 			<%
+			response.setIntHeader("Refresh", 5);
+			
 			String am_pm;
 			/* Date 클래스 대신 Calendar 클래스를 사용 */
 			/* Date day = new Date();
